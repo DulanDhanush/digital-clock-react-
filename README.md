@@ -73,3 +73,7 @@ The UI is designed to look like a Transparent HUD (Heads-Up Display).
 - Glow: Layered text-shadow simulates light emission from the numbers against the dark background.
 
 - Stability: Monospaced fonts ensure every character takes up the same width, providing a professional, stable readout.
+
+## Preview
+
+![alt text](image.png)
