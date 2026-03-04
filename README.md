@@ -34,18 +34,42 @@ src/
 └── assets/             # 4K Space background wallpaper
 ```
 
+---
+
 ## ⚙️ Installation & Setup
 
 1. Clone the repository
 
 ```bash
-git clone [https://github.com/DulanDhanush/digital-clock-react-
-Public
-.git](https://github.com/DulanDhanush/clock.git)
+git clone [https://github.com/DulanDhanush/digital-clock-react-.git](https://github.com/DulanDhanush/digital-clock-react-.git)
 ```
 
 2. Navigate to the directory
 
 ```bash
-cd sl-futuristic-clock
+cd digital-clock-react-
 ```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm start
+```
+
+---
+
+## 🎨 Design Philosophy
+
+The UI is designed to look like a Transparent HUD (Heads-Up Display).
+
+- Visibility: A 12px blur allows the space background to remain visible while ensuring the clock text is readable.
+
+- Glow: Layered text-shadow simulates light emission from the numbers against the dark background.
+
+- Stability: Monospaced fonts ensure every character takes up the same width, providing a professional, stable readout.
