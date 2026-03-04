@@ -1,16 +1,51 @@
-# React + Vite
+# 🌌 Colombo Station: Futuristic Digital Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, **React-based** digital clock featuring a "Cyber-Glass" UI. This application acts as a mission-control-style HUD (Heads-Up Display) over a stunning 4K deep-space background, hard-coded to **Sri Lanka (Asia/Colombo)** time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Fixed Sri Lanka Time:** Uses the `Intl.DateTimeFormat` API to lock the time to **Asia/Colombo (UTC+5:30)**, ensuring accuracy regardless of the viewer's location.
+- **Futuristic Glassmorphism:** Implements semi-transparent panels with `backdrop-filter` blurs and neon cyan accents.
+- **Jitter-Free Display:** Uses monospaced typography and `tabular-nums` to prevent the layout from shifting as seconds increment.
+- **Animated HUD:** Includes a pulsing "Live" status indicator and a scrolling "scanline" effect for a high-tech feel.
+- **Performance Optimized:** Efficient React `useEffect` hooks with proper interval cleanup to prevent memory leaks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technical Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Tech                  | Usage                                                   |
+| :-------------------- | :------------------------------------------------------ |
+| **React**             | Component-based UI logic and state management.          |
+| **JavaScript (ES6+)** | Date manipulation and `Intl` API for timezone handling. |
+| **CSS3**              | Glassmorphism, CSS Animations, and Backdrop-filters.    |
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── App.js              # Main application entry
+├── DigitalClock.jsx    # Core logic & Sri Lanka time calculations
+├── DigitalClock.css    # Futuristic styling & animations
+└── assets/             # 4K Space background wallpaper
+```
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone [https://github.com/DulanDhanush/digital-clock-react-
+Public
+.git](https://github.com/DulanDhanush/clock.git)
+```
+
+2. Navigate to the directory
+
+```bash
+cd sl-futuristic-clock
+```
