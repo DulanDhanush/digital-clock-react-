@@ -74,6 +74,11 @@ The UI is designed to look like a Transparent HUD (Heads-Up Display).
 
 - Stability: Monospaced fonts ensure every character takes up the same width, providing a professional, stable readout.
 
+
+## 🔮 Roadmap & Future Updates
+
+- [ ] Neural Persistence: Integrate localStorage to save tasks across sessions.
+
 ## Preview
 
 ![alt text](image.png)
