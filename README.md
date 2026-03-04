@@ -30,7 +30,7 @@ A high-performance, **React-based** digital clock featuring a "Cyber-Glass" UI. 
 src/
 ├── App.js              # Main application entry
 ├── DigitalClock.jsx    # Core logic & Sri Lanka time calculations
-├── App.css    # Futuristic styling & animations
+├── App.css             # Futuristic styling & animations
 └── assets/             # 4K Space background wallpaper
 ```
 
