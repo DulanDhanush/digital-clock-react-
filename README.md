@@ -41,7 +41,7 @@ src/
 1. Clone the repository
 
 ```bash
-git clone [https://github.com/DulanDhanush/digital-clock-react-.git](https://github.com/DulanDhanush/digital-clock-react-.git)
+git clone https://github.com/DulanDhanush/digital-clock-react-.git
 ```
 
 2. Navigate to the directory
